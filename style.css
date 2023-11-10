@@ -53,6 +53,14 @@ main {
     border: 2px solid var(--whiteColor);
 }
 
+#img1, #img2 {
+border-color: var(--lightGray);
+}
+
+#img4 {
+    border-color: var(--modViolet);;
+}
+
 .name {
     font-weight: 600;
     font-size: 15px;
@@ -95,6 +103,7 @@ main {
 #card4 {
     grid-row: 2/3;
     grid-column: 2/4;
+    background-color: var(--vDarkBlackishBlue);
 }
 
 #card5 {
@@ -112,7 +121,12 @@ main {
     color: var(--vDarkGrayishBlue)
 }
 
-/* @media (max-width:1024px) {
+a {
+    color: var(--modViolet);
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
 
     body {
         padding: 20px;
@@ -144,49 +158,12 @@ main {
 
     main {
         margin-top: 20px;
-        grid-template-columns: repeat(autofill, minmax(50%, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
     }
 
     .cardMain {
-        grid-column:
-        grid-row: 
+        grid-column: unset !important;
+        grid-row: unset !important;
     }
-} */
-
-@media screen and (min-width: 33em) {
-    .testimonial-grid {
-        grid-template-areas:
-        "one one"
-        "two three"
-        "five five"
-        "four four";
-    }
-  }
-  
-  @media screen and (min-width: 38em) {
-    .testimonial-grid {
-      grid-template-areas:
-       'one one'
-       'two five'
-       'three five'
-       'four four';
-    }
-  }
-  
-  @media screen and (min-width: 54em) {
-    .testimonial-grid {
-        grid-template-areas:
-        "one one two"
-        "five five five"
-        "three four four";
-    }
-  }
-  
-  @media screen and (min-width: 75em) {
-    .testimonial-grid {
-        grid-template-areas:
-        "one one two five"
-        "three four four five";
-    }
-  }
+}
