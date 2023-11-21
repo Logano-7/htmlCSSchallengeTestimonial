@@ -11,11 +11,9 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Continued Learning](#continued-learning)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -44,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I really appreciated this project because of how valuble CSS Grid is. I wanted something that would teach me more about it. So I could apply what I learn to my own passion projects. I especially appreciate learning about the !Important command and how important (no pun intended) that is to getting everything working properly. The only real roadblock I faced was figuring out how to wrap the CSS Grid. Finally I noticed I mispelled "auto-fill" (typing "autofill" instead).
 
 To see how you can add code snippets, see below:
 
@@ -71,18 +69,15 @@ To see how you can add code snippets, see below:
   }
 }
 ```
-### Continued development
+### Continued Learning
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+While I was able to learn how to recreate this website, I would love to continue to dig depper into CSS Grid and Flexbox. Of course as I learn react and other frontend librarys and frameworks, I look forward to learning animations and all kinds of stuff I havn't even heard of yet.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Resource 1 - (https://youtu.be/uuOXPWCh-6o?si=s67NrvD9qWz_sNCx) - This helped me get a better grasp on CSS Grid. It was short and concise. I highly recommend Fireship Turtorials.
+- Resource 2 - (https://youtu.be/yU7jJ3NbPdA?si=hNJce7IJb91Ti_kA) - This video helped a lot when having to figure out the Media Quereies for the project. Media Quereies are so important in Web development, and this tutorial is a great place to start.
+- Resource 3 - (https://www.w3schools.com) - W3 Schools was critical is helping me understand concepts I wasn't too familiar with, but knew existed. 
 
 ## Author
 
